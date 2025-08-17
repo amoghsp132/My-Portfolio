@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amogh - Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#" id="scrollTopBtn">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/amogh-patil-533168296">LinkedIn</a></li>
+                    <li><a href="#Works">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <button id="theme-toggle">☀️</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section glass">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQGj3VxpDWwwjg/profile-displayphoto-shrink_400_400/B56ZciBQ.2GoAg-/0/1748622447731?e=1758153600&v=beta&t=sVf6dsrFGp9WXoTAqEswBr2GVsv8txmlyAGKp6GlfAs" 
+                 alt="Amogh" class="profile-home">
+            <h1>Hi, I'm Amogh Patil</h1>
+            <p>Cisco Certified Python Dev | UIUX | Data Science | GCP | AI & WebDev | Hobby Music Producer</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section glass">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <div>
+                    <p>
+                        Hello, I'm a Computer Science undergrad at SDM College of Engineering & Technology.
+                        <br><br>
+                        I'm proficient in Python (Data Science & ML), UIUX (Intermediate - Figma), AI & AI Tools 
+                        (Google Certified in Gen AI), No-code AI tools, C/C++, Web Development & familiar with Linux Environments.
+                        <br><br>
+                        Seeking opportunities to learn and grow in the tech industry. Open to connecting and exploring new possibilities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works Section -->
+        <section id="Works" class="section glass">
+            <h2>Works</h2>
+            <div class="works-container">
+                <div class="works-column">
+                    <div class="card">
+                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327043324358336514?compact=1" 
+                                height="190" width="290" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                        <h3>Under25 App UI Re-Design</h3>
+                        <p>
+                            After a week of dedicated design and six sleepless nights, I'm excited to share my complete 
+                            UI/UX overhaul of the Under 25 App. This project was part of the Under 25 Universe's 
+                            UI/UX Redesign Contest, aiming to enhance the app's user experience for students across India.
+                            <br>
+                            <em>Skills: User Interface Design · Figma (Software)</em>
+                        </p>
+                        <a href="https://www.figma.com/proto/m3O1OAZdFG9n7vSkEn7qoe/e-amoghsp---UI-UX-Redesign-Challenge-Backup">View Prototype</a>
+                    </div>
+                </div>
+
+                <div class="works-column">
+                    <div class="card">
+                        <iframe data-testid="embed-iframe" style="border-radius:12px" 
+                                src="https://open.spotify.com/embed/artist/2Y5OXWkSnZbIQKtdQhtsPn?utm_source=generator" 
+                                width="100%" height="152" frameBorder="0" allowfullscreen="" 
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                                loading="lazy"></iframe>
+                        <h3>Listen to My Music</h3>
+                        <p>
+                            It all started when my father bought home an iPad, I used to play around with the DAW 'Garageband'. 
+                            Now over the span of 6 years I've shifted to FL Studio & make quality music. 
+                            I'm available on most music platforms such as Apple Music, Spotify, etc.
+                            <br>
+                            Feel free to listen to my music :)
+                            <br>
+                            <br>
+                            <em>Skills: FL Studio (Software) · Music Production · Sampling </em>
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+                <div class="works-column">
+                    <div class="card">
+                        <img src="https://media.licdn.com/dms/image/v2/D562DAQF4j3V4Wb7x-g/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1725197132889?e=1756044000&v=beta&t=_EVp22G49n6QosMe_h1YfCdAZhh86fS5KKhtfjgSZg8" 
+                             alt="Project 2">
+                        <h3>ReconNinja V1.0</h3>
+                        <p>
+                            ReconNinja is an automated reconnaissance tool written in Python, is a native command-line based tool. 
+                            Consists of 497 lines of code & has 10 tools prebuilt in it. 
+                            <br>
+                            <em>Skills: Python (Programming Language) · Process Automation · Reconnaissance</em>
+                        </p>
+                        <a href="https://github.com/amoghsp132/ReconNinja-V1.0">Download & Try</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section glass">
+            <h2>Resume</h2>
+            <a href="#" class="btn">Download Resume</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section glass">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or just want to say hi, feel free to reach out!</p>
+            <form id="contactForm" action="https://formsubmit.co/2bc7af4e5d1fb189eb12594693202d06" method="POST">
+                <!-- Hidden fields -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- <input type="hidden" name="_next" value="https://www.linkedin.com/in/amogh-patil-533168296"> -->
+
+                <!-- User inputs -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="We're Pleased to Hire You :)" rows="5" required></textarea>
+                
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Built and Owned by Amogh Patil. All rights reserved.</p>
+    </footer>
+
+    <!-- Script for scroll-to-top -->
+    <script>
+        document.getElementById("scrollTopBtn").addEventListener("click", function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
