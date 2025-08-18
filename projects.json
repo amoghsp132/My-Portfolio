@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "Under25 App UI Re-Design",
+    "description": "This project was part of the Under 25 Universe's UI/UX Redesign Contest, aiming to enhance the app's user experience for students across India.",
+    "longDescription": "A comprehensive task management application that uses artificial intelligence to help users prioritize tasks, schedule work efficiently, and maintain productivity. Features include smart notifications, deadline predictions, and workload balancing.",
+    "category": "Web Application",
+    "thumbnail": "./assets/images/u25-ui-img.png",
+    "technologies": ["Figma", "Wireframes", "User-Interface Design"],
+    "githubUrl": "https://github.com/johndoe/ai-task-manager",
+    "liveUrl": "http://bit.ly/3V3qToD",
+    "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327043324358336514?compact=1\" height=\"399\" width=\"100%\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
+    "features": [
+      "Completely Responsive Prototype",
+      "Smooth Onboarding Experience",
+      "Youth-Centric Design",
+      "Button-Driven Navigation",
+      "Interactive UI Elements",
+      "Real-time Updates",
+      "User-Friendly Interface"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Music Producer / Lyricist",
+    "description": "Writing songs & makeing music is my hobby. I've been producing music for over 6 years, starting with GarageBand and now using FL Studio.",
+    "longDescription": "It all started when my father bought home an iPad, I used to play around with the DAW 'Garageband'. Now over the span of 6 years I've shifted to FL Studio & make quality music. I'm available on most music platforms such as Apple Music, Spotify, etc. Feel free to listen to my music :)",
+    "category": "Music Production + Hobby",
+    "thumbnail": "./assets/images/Yuraki.jpg?height=200&width=300",
+    "technologies": ["FL Studio", "GarageBand", "Sampling", "Remixing", "Music Composition", "Songwriting"],
+    "githubUrl": "https://github.com/johndoe/ecommerce-platform",
+    "liveUrl": "https://shop.example.com",
+    "videoEmbed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/artist/2Y5OXWkSnZbIQKtdQhtsPn?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>",
+    "features": [
+      "20+ original tracks",
+      "Multiple genres including EDM, Hip-Hop, Lofi and Pop",
+      "Writing original songs",
+      "Producing music tracks",
+      "Collaborating with artists",
+      "Exploring different genres",
+      "Creating remixes and mashups",
+      "Sharing music on streaming platforms"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ReconNinja V1.0",
+    "description": "ReconNinja is an automated reconnaissance tool written in Python",
+    "longDescription": "ReconNinja is an automated reconnaissance tool written in Python, is a native command-line based tool. Consists of 497 lines of code & has 10 tools prebuilt in it.",
+    "category": "Command Line Interface Tool",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQF4j3V4Wb7x-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1725197132885?e=1756144800&v=beta&t=vgAh8HtY4uTSRDJ3cluIGGltNQvJs__ntzN9KPRDHzw",
+    "technologies": ["Python", "Command-Line", "Automation"],
+    "githubUrl": "https://github.com/amoghsp132/ReconNinja-V1.0/",
+    "liveUrl": null,
+    "videoEmbed": null,
+    "features": [
+      "Automated reconnaissance tool",
+      "Written in Python",
+      "Command-line interface",
+      "Includes 10 prebuilt tools",
+      "497 lines of code",
+      "Easy to use for security professionals",
+      "Supports various reconnaissance tasks"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "description": "This is my personal portfolio website, showcasing my skills, projects, and experiences.",
+    "longDescription": "A personal portfolio website built using HTML, CSS, and JavaScript. It features a modern design, responsive layout, and showcases my skills and projects.",
+    "category": "Web Development",
+    "thumbnail": "./assets/images/portfolio.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
+    "githubUrl": null,
+    "liveUrl": "https://amoghsp132.github.io/portfolio-website/",
+    "videoEmbed": null,
+    "features": [
+      "Modern responsive design",
+      "Showcases projects and skills",
+      "Clean and professional UI",
+      "Built with HTML, CSS, and JavaScript",
+      "Deployed on GitHub Pages"
+    ]
+  }
+]
