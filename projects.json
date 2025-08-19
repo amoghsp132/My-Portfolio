@@ -73,7 +73,8 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
     "githubUrl":"https://github.com/amoghsp132/My-Portfolio",
     "liveUrl": "https://amoghsp132.github.io/My-Portfolio/",
-    "videoEmbed": null,
+    "videoEmbed": "<iframe src=\"https://amoghsp132.github.io/My-Portfolio/\" width=\"100%\" height=\"400\" style=\"border:none;\">Your browser does not support iframes.</iframe>",
+
     "features": [
       "Modern responsive design",
       "Showcases projects and skills",
