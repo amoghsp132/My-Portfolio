@@ -182,10 +182,26 @@ function displayRelatedProjects(currentProject) {
   const container = document.getElementById("relatedProjects")
   if (!container) return
 
-  const relatedProjects = projects
-    .filter((p) => p.id !== currentProject.id && p.category === currentProject.category)
-    .slice(0, 3)
+  // Try same-category projects first
+  let relatedProjects = projects.filter(
+    (p) => p.id !== currentProject.id && p.category === currentProject.category
+  )
 
+  // If none, fall back to all other projects
+  if (relatedProjects.length === 0) {
+    relatedProjects = projects.filter((p) => p.id !== currentProject.id)
+  }
+
+  // Shuffle array using Fisher–Yates algorithm
+  for (let i = relatedProjects.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[relatedProjects[i], relatedProjects[j]] = [relatedProjects[j], relatedProjects[i]]
+  }
+
+  // Take 3 random projects
+  relatedProjects = relatedProjects.slice(0, 3)
+
+  // Render
   container.innerHTML = relatedProjects
     .map(
       (project) => `
@@ -198,10 +214,12 @@ function displayRelatedProjects(currentProject) {
                 </div>
             </div>
         </div>
-    `,
+      `
     )
     .join("")
 }
+
+
 
 // Initialize theme toggle
 function initializeTheme() {
