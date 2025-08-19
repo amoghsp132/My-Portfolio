@@ -606,6 +606,25 @@ body {
   .project-links .btn {
     width: 100%;
   }
+    .offcanvas-body {
+    padding: 1rem;
+    text-align: center; /* Center text for all child elements */
+  }
+
+  .offcanvas-body .profile-section,
+  .offcanvas-body .contact-section {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .offcanvas-body .profile-section {
+     border-bottom: 1px solid var(--border-color); /* Add a separator */
+  }
 }
 
 @media (max-width: 575.98px) {
