@@ -33,9 +33,9 @@
 
 [data-theme="dark"] {
   /* Primary Brand Colors - Adjusted for dark mode */
-  --primary-color: #0004ff;
-  --primary-dark: #00158c;
-  --primary-light: #4141fa;
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --primary-light: #3b82f6
 
 
   /* Secondary & Accent Colors */
