@@ -4,11 +4,11 @@
     "title": "Under25 App UI Re-Design",
     "description": "This project was part of the Under 25 Universe's UI/UX Redesign Contest, aiming to enhance the app's user experience for students across India.",
     "longDescription": "A comprehensive task management application that uses artificial intelligence to help users prioritize tasks, schedule work efficiently, and maintain productivity. Features include smart notifications, deadline predictions, and workload balancing.",
-    "category": "Web Application",
+    "category": "UI/UX Design Mobile App",
     "thumbnail": "./assets/images/u25-ui-img.png",
     "technologies": ["Figma", "Wireframes", "User-Interface Design"],
-    "githubUrl": "https://github.com/johndoe/ai-task-manager",
-    "liveUrl": "http://bit.ly/3V3qToD",
+    "githubUrl": "https://www.figma.com/design/m3O1OAZdFG9n7vSkEn7qoe/e-amoghsp---UI-UX-Redesign-Challenge-Backup?node-id=0-1&t=jc3V958PGK8MEbf9-1",
+    "liveUrl": "https://www.figma.com/proto/m3O1OAZdFG9n7vSkEn7qoe/e-amoghsp---UI-UX-Redesign-Challenge-Backup",
     "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327043324358336514?compact=1\" height=\"399\" width=\"100%\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
     "features": [
       "Completely Responsive Prototype",
@@ -71,8 +71,8 @@
     "category": "Web Development",
     "thumbnail": "./assets/images/portfolio.png",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
-    "githubUrl": null,
-    "liveUrl": "https://amoghsp132.github.io/portfolio-website/",
+    "githubUrl":"https://github.com/amoghsp132/My-Portfolio",
+    "liveUrl": "https://amoghsp132.github.io/My-Portfolio/",
     "videoEmbed": null,
     "features": [
       "Modern responsive design",
@@ -81,5 +81,48 @@
       "Built with HTML, CSS, and JavaScript",
       "Deployed on GitHub Pages"
     ]
+  },
+  {
+    "id": 5,
+    "title": "Graphic Design",
+    "description": "This is a collection of my graphic design work I did to earn pocket-money from Under25 App.",
+    "longDescription": "A collection of graphic design work I did to earn pocket-money from Under25 App. It includes various designs for social media, posters, and other digital content. The designs are created using Canva.",
+    "category": "Graphic Design",
+    "thumbnail": "./assets/images/gfx.png",
+    "technologies": ["Canva", "Graphic Design","Product Illustrations", "Social Media Graphics"],
+    "githubUrl":null,
+    "liveUrl": null,
+    "videoEmbed": "<iframe src=\"elfsight-gallery.html\" style=\"width:100%; height:600px; border:none;\" frameborder=\"0\" allowfullscreen></iframe>",
+    "features": [
+      "Social Media Graphics",
+      "Product Illustrations",
+      "Poster Designs",
+      "Branding Materials",
+      "Custom Graphics",
+      "Digital Artworks",
+      "Promotional Materials"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "UI/UX Design - Single Pages",
+    "description": "This project showcases my UI/UX design skills through various single-page designs.",
+    "longDescription": "A collection of single-page UI/UX designs that demonstrate my design skills and creativity. Each design is crafted to provide a unique user experience and aesthetic appeal.",
+    "category": "UI/UX Design",
+    "thumbnail": "./assets/images/uiux-single-pages.png",
+    "technologies": ["Figma", "Static Design", "User-Interface Design"],
+    "githubUrl": null,
+    "liveUrl": null,
+    "videoEmbed": "<iframe src=\"elfsight-gallery-2.html\" style=\"width:100%; height:600px; border:none;\" frameborder=\"0\" allowfullscreen></iframe>",
+    "features": [
+      "User-friendly interface",
+      "Interactive design elements",
+      "Responsive layout",
+      "Intuitive navigation",
+      "Engaging user experience",
+      "Modern design aesthetics",
+      "Focus on usability and accessibility"
+    ]
   }
+  
 ]

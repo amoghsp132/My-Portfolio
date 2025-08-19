@@ -1,7 +1,7 @@
 /* Modern Professional Color System */
 :root {
   /* Primary Brand Colors */
-  --primary-color: #0051ff;
+  --primary-color: #2563eb;
   --primary-dark: #1d4ed8;
   --primary-light: #3b82f6;
 
@@ -189,15 +189,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.social-links .btn {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
-}
 
 .social-links .btn:hover {
   transform: translateY(-2px);
