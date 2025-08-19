@@ -71,7 +71,7 @@
     "category": "Web Development",
     "thumbnail": "./assets/images/portfolio.png",
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
-    "githubUrl":"https://github.com/amoghsp132/My-Portfolio",
+    "githubUrl":"https://amoghsp132-portfolio.netlify.app/",
     "liveUrl": "https://amoghsp132.github.io/My-Portfolio/",
     "videoEmbed": null,
     "features": [
