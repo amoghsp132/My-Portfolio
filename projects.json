@@ -33,7 +33,6 @@
     "videoEmbed": null,
     "features": [
       "Smart attendance dashboard",
-      "AI-assisted predictions",
       "Clean and minimal UI",
       "Seamless navigation between modules",
       "Responsive design for web and mobile",
@@ -49,8 +48,8 @@
     "category": "Music Production + Hobby",
     "thumbnail": "./assets/images/Yuraki.jpg?height=200&width=300",
     "technologies": ["FL Studio", "GarageBand", "Sampling", "Remixing", "Music Composition", "Songwriting"],
-    "githubUrl": "https://github.com/johndoe/ecommerce-platform",
-    "liveUrl": "https://shop.example.com",
+    "githubUrl": null,
+    "liveUrl": "https://open.spotify.com/artist/2Y5OXWkSnZbIQKtdQhtsPn",
     "videoEmbed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/artist/2Y5OXWkSnZbIQKtdQhtsPn?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>",
     "features": [
       "20+ original tracks",
@@ -112,7 +111,7 @@
     "thumbnail": "./assets/images/gfx.png",
     "technologies": ["Canva", "Graphic Design","Product Illustrations", "Social Media Graphics"],
     "githubUrl":null,
-    "liveUrl": null,
+    "liveUrl": "https://drive.google.com/drive/folders/1r203mXYpBHxWAz82qUlJIZeumwDWGaxP?usp=sharing",
     "videoEmbed": "<iframe src=\"elfsight-gallery.html\" style=\"width:100%; height:600px; border:none;\" frameborder=\"0\" allowfullscreen></iframe>",
     "features": [
       "Social Media Graphics",
