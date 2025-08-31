@@ -22,6 +22,27 @@
   },
   {
     "id": 2,
+    "title": "ProAktive - Attendance Tracker",
+    "description": "An AI-powered smart attendance tracker designed for students and institutions to simplify attendance management.",
+    "longDescription": "ProAktive - Attendance Tracker is a productivity-focused UI/UX project that simplifies the process of recording, tracking, and analyzing attendance. It features intuitive dashboards, AI-assisted attendance predictions, and user-friendly workflows to help both students and administrators stay organized. The design emphasizes clarity, accessibility, and smooth navigation.",
+    "category": "UI/UX Design Web + Mobile App",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQGAqSNF-PeFyg/profile-treasury-image-shrink_8192_8192/B56Zj3CrjeHQAo-/0/1756491332714?e=1757268000&v=beta&t=KHYG7abWytZZR9K0iAMd1tIwlF5Yb4T5Kc2JuVC6UtY",
+    "technologies": ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
+    "githubUrl": "https://www.figma.com/design/xgDuoJX4sduZPmBafhZEQE/-e-amoghsp--ProAktive---Attendance-Tracker?node-id=0-1&t=HhbYa1uF8qG1Tbae-1",
+    "liveUrl": "https://www.figma.com/proto/xgDuoJX4sduZPmBafhZEQE/-e-amoghsp--ProAktive---Attendance-Tracker?page-id=0%3A1&node-id=8-2&viewport=5%2C-91%2C0.15&t=0mduiuYYdxwkINwU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
+    "videoEmbed": null,
+    "features": [
+      "Smart attendance dashboard",
+      "AI-assisted predictions",
+      "Clean and minimal UI",
+      "Seamless navigation between modules",
+      "Responsive design for web and mobile",
+      "Data visualization for tracking attendance trends",
+      "Student and teacher-friendly workflows"
+    ]
+  },
+  {
+    "id": 3,
     "title": "Music Producer / Lyricist",
     "description": "Writing songs & makeing music is my hobby. I've been producing music for over 6 years, starting with GarageBand and now using FL Studio.",
     "longDescription": "It all started when my father bought home an iPad, I used to play around with the DAW 'Garageband'. Now over the span of 6 years I've shifted to FL Studio & make quality music. I'm available on most music platforms such as Apple Music, Spotify, etc. Feel free to listen to my music :)",
@@ -43,12 +64,12 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "ReconNinja V1.0",
     "description": "ReconNinja is an automated reconnaissance tool written in Python",
     "longDescription": "ReconNinja is an automated reconnaissance tool written in Python, is a native command-line based tool. Consists of 497 lines of code & has 10 tools prebuilt in it.",
     "category": "Command Line Interface Tool",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQF4j3V4Wb7x-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1725197132885?e=1756144800&v=beta&t=vgAh8HtY4uTSRDJ3cluIGGltNQvJs__ntzN9KPRDHzw",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQF4j3V4Wb7x-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1725197132885?e=1757268000&v=beta&t=6zOvE6Bc8V7w_TfXf7ceASect92u7P1Uqn_HpyTAnEo",
     "technologies": ["Python", "Command-Line", "Automation"],
     "githubUrl": "https://github.com/amoghsp132/ReconNinja-V1.0/",
     "liveUrl": null,
@@ -64,7 +85,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Portfolio Website",
     "description": "This is my personal portfolio website, showcasing my skills, projects, and experiences.",
     "longDescription": "A personal portfolio website built using HTML, CSS, and JavaScript. It features a modern design, responsive layout, and showcases my skills and projects.",
@@ -74,7 +95,6 @@
     "githubUrl":"https://github.com/amoghsp132/My-Portfolio",
     "liveUrl": "https://amoghsp132.github.io/My-Portfolio/",
     "videoEmbed": "<iframe src=\"https://amoghsp132.github.io/My-Portfolio/\" width=\"100%\" height=\"400\" style=\"border:none;\">Your browser does not support iframes.</iframe>",
-
     "features": [
       "Modern responsive design",
       "Showcases projects and skills",
@@ -84,7 +104,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Graphic Design",
     "description": "This is a collection of my graphic design work I did to earn pocket-money from Under25 App.",
     "longDescription": "A collection of graphic design work I did to earn pocket-money from Under25 App. It includes various designs for social media, posters, and other digital content. The designs are created using Canva.",
@@ -105,7 +125,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "UI/UX Design - Single Pages",
     "description": "This project showcases my UI/UX design skills through various single-page designs.",
     "longDescription": "A collection of single-page UI/UX designs that demonstrate my design skills and creativity. Each design is crafted to provide a unique user experience and aesthetic appeal.",
@@ -125,5 +145,4 @@
       "Focus on usability and accessibility"
     ]
   }
-  
 ]
