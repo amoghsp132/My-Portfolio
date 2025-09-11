@@ -23,6 +23,10 @@ async function loadProjects() {
   try {
     const response = await fetch("projects.json")
     projects = await response.json()
+
+    // Sort projects by id in ascending order
+    projects.sort((a, b) => a.id - b.id)
+
     filteredProjects = [...projects]
     displayProjects()
   } catch (error) {
@@ -30,6 +34,7 @@ async function loadProjects() {
     displayError()
   }
 }
+
 
 // Display projects
 function displayProjects(reset = false) {
@@ -102,23 +107,28 @@ function loadProjectDetail() {
 
   // Load projects first, then display detail
   fetch("projects.json")
-    .then((response) => response.json())
-    .then((data) => {
-      projects = data
-      const project = projects.find((p) => p.id === projectId)
+  .then((response) => response.json())
+  .then((data) => {
+    projects = data
 
-      if (!project) {
-        window.location.href = "index.html"
-        return
-      }
+    // Sort projects by id in ascending order
+    projects.sort((a, b) => a.id - b.id)
 
-      displayProjectDetail(project)
-      displayRelatedProjects(project)
-    })
-    .catch((error) => {
-      console.error("Error loading project:", error)
+    const project = projects.find((p) => p.id === projectId)
+
+    if (!project) {
       window.location.href = "index.html"
-    })
+      return
+    }
+
+    displayProjectDetail(project)
+    displayRelatedProjects(project)
+  })
+  .catch((error) => {
+    console.error("Error loading project:", error)
+    window.location.href = "index.html"
+  })
+
 }
 
 // Display project detail

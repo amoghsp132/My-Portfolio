@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 2,
     "title": "Under25 App UI Re-Design",
     "description": "This project was part of the Under 25 Universe's UI/UX Redesign Contest, aiming to enhance the app's user experience for students across India.",
     "longDescription": "A comprehensive task management application that uses artificial intelligence to help users prioritize tasks, schedule work efficiently, and maintain productivity. Features include smart notifications, deadline predictions, and workload balancing.",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "ProAktive - Attendance Tracker",
     "description": "An AI-powered smart attendance tracker designed for students and institutions to simplify attendance management.",
     "longDescription": "ProAktive - Attendance Tracker is a productivity-focused UI/UX project that simplifies the process of recording, tracking, and analyzing attendance. It features intuitive dashboards, AI-assisted attendance predictions, and user-friendly workflows to help both students and administrators stay organized. The design emphasizes clarity, accessibility, and smooth navigation.",
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Music Producer / Lyricist",
     "description": "Writing songs & makeing music is my hobby. I've been producing music for over 6 years, starting with GarageBand and now using FL Studio.",
     "longDescription": "It all started when my father bought home an iPad, I used to play around with the DAW 'Garageband'. Now over the span of 6 years I've shifted to FL Studio & make quality music. I'm available on most music platforms such as Apple Music, Spotify, etc. Feel free to listen to my music :)",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "ReconNinja V1.0",
     "description": "ReconNinja is an automated reconnaissance tool written in Python",
     "longDescription": "ReconNinja is an automated reconnaissance tool written in Python, is a native command-line based tool. Consists of 497 lines of code & has 10 tools prebuilt in it.",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Portfolio Website",
     "description": "This is my personal portfolio website, showcasing my skills, projects, and experiences.",
     "longDescription": "A personal portfolio website built using HTML, CSS, and JavaScript. It features a modern design, responsive layout, and showcases my skills and projects.",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Graphic Design",
     "description": "This is a collection of my graphic design work I did to earn pocket-money from Under25 App.",
     "longDescription": "A collection of graphic design work I did to earn pocket-money from Under25 App. It includes various designs for social media, posters, and other digital content. The designs are created using Canva.",
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "UI/UX Design - Single Pages",
     "description": "This project showcases my UI/UX design skills through various single-page designs.",
     "longDescription": "A collection of single-page UI/UX designs that demonstrate my design skills and creativity. Each design is crafted to provide a unique user experience and aesthetic appeal.",
@@ -145,7 +145,7 @@
     ]
   },
   {
-  "id": 8,
+  "id": 1,
   "title": "StockInfo WebDev DS Project",
   "description": "A web application that fetches, analyzes, and visualizes stock market data, providing downloadable reports and real-time insights.",
   "longDescription": "StockInfo WebDev DS Project is a dynamic Flask-based web application that allows users to retrieve historical stock data from Yahoo Finance, analyze it using pandas and Sweetviz, generate HTML and PDF reports, download CSVs, and access a RESTful API for stock information. It integrates data science techniques with web development to provide an interactive and user-friendly platform for financial data analysis.",
