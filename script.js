@@ -2,7 +2,7 @@
 let projects = []
 let filteredProjects = []
 let currentPage = 0
-const projectsPerPage = 6
+const projectsPerPage = 999 //manages the no of projects to be loaded on index page
 const isLoading = false
 
 // Initialize the application
@@ -57,8 +57,11 @@ function displayProjects(reset = false) {
 
   currentPage++
 
+ /*  Disabled for unlimited loading, can be re-enabled for pagination,
+  need to enable button in index.html too and change the 'projectsPerPage' value */
+
   // Show/hide load more button
-  const loadMoreBtn = document.getElementById("loadMoreBtn")
+  /* const loadMoreBtn = document.getElementById("loadMoreBtn")
   if (loadMoreBtn) {
     if (endIndex >= filteredProjects.length) {
       loadMoreBtn.style.display = "none"
@@ -66,7 +69,7 @@ function displayProjects(reset = false) {
       loadMoreBtn.style.display = "block"
       loadMoreBtn.onclick = () => displayProjects()
     }
-  }
+  } */
 }
 
 // Create project card element
@@ -234,7 +237,7 @@ function displayRelatedProjects(currentProject) {
 // Initialize theme toggle
 function initializeTheme() {
   const themeToggle = document.getElementById("themeToggle")
-  const savedTheme = localStorage.getItem("theme") || "dark"
+  const savedTheme = localStorage.getItem("theme") || "light"
 
   document.body.setAttribute("data-theme", savedTheme)
   updateThemeIcon(savedTheme)

@@ -26,7 +26,7 @@
     "description": "An AI-powered smart attendance tracker designed for students and institutions to simplify attendance management.",
     "longDescription": "ProAktive - Attendance Tracker is a productivity-focused UI/UX project that simplifies the process of recording, tracking, and analyzing attendance. It features intuitive dashboards, AI-assisted attendance predictions, and user-friendly workflows to help both students and administrators stay organized. The design emphasizes clarity, accessibility, and smooth navigation.",
     "category": "UI/UX Design Web + Mobile App",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQGAqSNF-PeFyg/profile-treasury-image-shrink_8192_8192/B56Zj3CrjeHQAo-/0/1756491332714?e=1758132000&v=beta&t=DwVn3TT0qQd-ecrVT7cymvkVmvuyDy_XXBs1nvggJPU",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQGAqSNF-PeFyg/profile-treasury-image-shrink_800_800/B56Zj3CrjeHQAg-/0/1756491332720?e=1761487200&v=beta&t=W5M1O6coBQ99b-CpXIxQqHGr-Md2Li9g3K51MaZ9R8Q",
     "technologies": ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
     "githubUrl": "https://www.figma.com/design/xgDuoJX4sduZPmBafhZEQE/-e-amoghsp--ProAktive---Attendance-Tracker?node-id=0-1&t=HhbYa1uF8qG1Tbae-1",
     "liveUrl": "https://www.figma.com/proto/xgDuoJX4sduZPmBafhZEQE/-e-amoghsp--ProAktive---Attendance-Tracker?page-id=0%3A1&node-id=8-2&viewport=5%2C-91%2C0.15&t=0mduiuYYdxwkINwU-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
@@ -68,7 +68,7 @@
     "description": "ReconNinja is an automated reconnaissance tool written in Python",
     "longDescription": "ReconNinja is an automated reconnaissance tool written in Python, is a native command-line based tool. Consists of 497 lines of code & has 10 tools prebuilt in it.",
     "category": "Command Line Interface Tool",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQF4j3V4Wb7x-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1725197132885?e=1758132000&v=beta&t=XReh8pp5MxNSo4OFbcec2L-GaXa34VRtcLKSVOaVdn4",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQF4j3V4Wb7x-g/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1725197132889?e=1761487200&v=beta&t=PfALetKo6sPU-x4TzuLr5hR2LwYwyoALIVJS-foPO5Y",
     "technologies": ["Python", "Command-Line", "Automation"],
     "githubUrl": "https://github.com/amoghsp132/ReconNinja-V1.0/",
     "liveUrl": null,
@@ -146,7 +146,7 @@
   },
   {
   "id": 1,
-  "title": "StockInfo WebDev DS Project",
+  "title": "StockInfo Web Development<br>+ Data-Science Project",
   "description": "A web application that fetches, analyzes, and visualizes stock market data, providing downloadable reports and real-time insights.",
   "longDescription": "StockInfo WebDev DS Project is a dynamic Flask-based web application that allows users to retrieve historical stock data from Yahoo Finance, analyze it using pandas and Sweetviz, generate HTML and PDF reports, download CSVs, and access a RESTful API for stock information. It integrates data science techniques with web development to provide an interactive and user-friendly platform for financial data analysis.",
   "category": "Web Development + Data Science",
@@ -165,6 +165,46 @@
     "Caching for faster repeated requests",
     "Deployed on Render for cloud accessibility"
   ]
+},
+{
+  "id": 9,
+  "title": "Student DBMS using C/C++",
+  "description": "A C-based project implementing core data structures for managing student records efficiently using flat text files.",
+  "longDescription": "The Student Database Management System is a console-based project built in C that manages student data such as names, roll numbers, and grades using file handling and structured data operations. It performs key CRUD operations—add, search, update, delete—without relying on any external database. The project demonstrates strong understanding of data structures, file I/O, and memory management in C programming.",
+  "category": "Data Structures (C/C++)",
+  "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQEYufFLkUb9OA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1727000190908?e=1761487200&v=beta&t=FKC7a2LIt-nZ8-CtVyMXxF2uNDfu3gmogLCBtgmpIow",
+  "technologies": ["C", "File Handling", "Data Structures", "Pointers", "CLI", "Flat File Storage", "Binary Storage"],
+  "githubUrl": "https://github.com/amoghsp132/Student-Database-Management-System",
+  "liveUrl": "",
+  "videoEmbed": "",
+  "features": [
+    "Implements CRUD operations for student records",
+    "Uses flat text files for persistent storage",
+    "Efficient record management using structured data",
+    "Demonstrates C file handling and memory management",
+    "Simple CLI interface for user interaction"
+  ]
+},
+{
+  "id": 10,
+  "title": "Student Ranking System using C/C++",
+  "description": "A C-based program that processes and ranks students using sorting algorithms and structured data management.",
+  "longDescription": "The Student Ranking System is a console-based C project that reads, stores, and processes student data to generate merit-based rankings. It utilizes data structures such as arrays and structures, combined with sorting algorithms like Bubble Sort or Quick Sort, to efficiently compute and display student ranks. The project demonstrates practical application of algorithmic logic, structured programming, and performance optimization in C.",
+  "category": "Data Structures (C/C++)",
+  "thumbnail": "https://media.licdn.com/dms/image/v2/D562DAQGvS54729CNQg/profile-treasury-document-cover-images_800/profile-treasury-document-cover-images_800/0/1727007026767?e=1761487200&v=beta&t=YNXXTeKLuDOromlPXu-HncdLp5AxffQ8kAXePYIoWbo",
+  "technologies": ["C", "Data Structures", "Sorting Algorithms", "File Handling", "CLI"],
+  "githubUrl": "https://github.com/amoghsp132/Student-Ranking-System",
+  "liveUrl": "",
+  "videoEmbed": "",
+  "features": [
+    "Processes student records for ranking and performance analysis",
+    "Implements sorting algorithms for merit-based ranking",
+    "Uses structured data for efficient storage and retrieval",
+    "Provides simple command-line interface for operations",
+    "Demonstrates algorithmic logic and data structure proficiency"
+  ]
 }
+
+
 
 ]
