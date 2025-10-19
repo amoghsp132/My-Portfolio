@@ -173,7 +173,7 @@ function displayProjectDetail(project) {
             <div class="project-links">
                 ${
                   project.githubUrl
-                    ? `<a href="${project.githubUrl}" class="btn btn-outline-primary" target="_blank">
+                    ? `<a href="${project.githubUrl}" class="btn btn-primary" target="_blank">
                     <i class="fab fa-github me-1"></i>View Code
                 </a>`
                     : ""
@@ -314,7 +314,8 @@ function performSearch(query) {
       project.technologies.some((tech) => tech.toLowerCase().includes(query.toLowerCase())),
   )
 
-  // Display search results dropdown
+  //not needed as it obstructs the view of user
+/*   // Display search results dropdown
   if (filteredProjects.length > 0) {
     searchResults.innerHTML = filteredProjects
       .slice(0, 5)
@@ -331,7 +332,7 @@ function performSearch(query) {
   } else {
     searchResults.innerHTML = '<div class="search-result-item">No projects found</div>'
     searchResults.style.display = "block"
-  }
+  } */
 
   // Update main project display
   displayProjects(true)
