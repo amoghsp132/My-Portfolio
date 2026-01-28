@@ -32,7 +32,7 @@
     "technologies": ["Flask", "Python", "SQLite", "JavaScript", "HTML", "CSS", "Bootstrap", "UPI QR", "REST APIs"],
     "githubUrl": "https://github.com/amoghsp132/PayLite",
     "liveUrl": null,
-    "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7422291545720143873?collapsed=1\" height=\"507\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
+    "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7422291545720143873?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
     "features": [
       "UPI QR based digital payments",
       "Card and UPI transaction handling Prototype",
