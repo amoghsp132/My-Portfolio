@@ -1,6 +1,52 @@
 [
   {
+    "id": 1,
+    "title": "StockInfo Web Development<br>+ Data-Science Project",
+    "description": "A web application that fetches, analyzes, and visualizes stock market data, providing downloadable reports and real-time insights.",
+    "longDescription": "StockInfo WebDev DS Project is a dynamic Flask-based web application that allows users to retrieve historical stock data from Yahoo Finance, analyze it using pandas and Sweetviz, generate HTML and PDF reports, download CSVs, and access a RESTful API for stock information. It integrates data science techniques with web development to provide an interactive and user-friendly platform for financial data analysis.",
+    "category": "Web Development + Data Science",
+    "thumbnail": "./assets/images/stockinfo.png",
+    "technologies": ["Flask", "Python", "Pandas", "NumPy", "Matplotlib", "Sweetviz", "yfinance", "xhtml2pdf", "Flask-Caching", "Gunicorn", "Render.com","TradingView Integration", "GitHub"],
+    "githubUrl": "https://github.com/amoghsp132/StockInfo-WebDev-DS-Project/tree/master",
+    "liveUrl": "https://stockinfo-webdev-ds-project.onrender.com/",
+    "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7371590275548311553?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
+    "features": [
+      "Fetches historical stock data from Yahoo Finance",
+      "Analyzes and visualizes stock trends",
+      "Generates downloadable HTML and PDF reports",
+      "Exports raw stock data in CSV format",
+      "Provides RESTful API for real-time stock info",
+      "Responsive and interactive user interface",
+      "Caching for faster repeated requests",
+      "Deployed on Render for cloud accessibility"
+    ]
+  },
+
+  {
     "id": 2,
+    "title": "Paylite – Digital Payments & POS System Prototype",
+    "description": "A full-stack digital payment system with UPI-based transactions, POS billing, inventory management, and merchant dashboards.",
+    "longDescription": "Paylite is a complete digital payments and POS ecosystem built using Flask and SQLite. It supports UPI-based QR payments, card transactions, merchant KYC verification, real-time transaction logging, inventory-backed POS billing, printable receipts, and user/merchant dashboards. The project focuses on building a realistic fintech flow with proper transaction safety, session handling, and database integrity.",
+    "category": "FinTech + Web Development",
+    "thumbnail": "./assets/images/paylite.png",
+    "technologies": ["Flask", "Python", "SQLite", "JavaScript", "HTML", "CSS", "Bootstrap", "UPI QR", "REST APIs"],
+    "githubUrl": "https://github.com/amoghsp132/PayLite",
+    "liveUrl": null,
+    "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7422291545720143873?collapsed=1\" height=\"507\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
+    "features": [
+      "UPI QR based digital payments",
+      "Card and UPI transaction handling Prototype",
+      "Merchant KYC verification flow",
+      "Inventory-based POS billing system",
+      "Printable POS receipts",
+      "Transaction logging",
+      "Merchant and user dashboards",
+      "Session-safe payment handling"
+    ]
+  },
+
+  {
+    "id": 3,
     "title": "Under25 App UI Re-Design",
     "description": "This project was part of the Under 25 Universe's UI/UX Redesign Contest, aiming to enhance the app's user experience for students across India.",
     "longDescription": "A comprehensive task management application that uses artificial intelligence to help users prioritize tasks, schedule work efficiently, and maintain productivity. Features include smart notifications, deadline predictions, and workload balancing.",
@@ -20,8 +66,9 @@
       "User-Friendly Interface"
     ]
   },
+
   {
-    "id": 3,
+    "id": 4,
     "title": "ProAktive - Attendance Tracker",
     "description": "An AI-powered smart attendance tracker designed for students and institutions to simplify attendance management.",
     "longDescription": "ProAktive - Attendance Tracker is a productivity-focused UI/UX project that simplifies the process of recording, tracking, and analyzing attendance. It features intuitive dashboards, AI-assisted attendance predictions, and user-friendly workflows to help both students and administrators stay organized. The design emphasizes clarity, accessibility, and smooth navigation.",
@@ -40,8 +87,48 @@
       "Student and teacher-friendly workflows"
     ]
   },
+
   {
     "id": 5,
+    "title": "Portfolio Website",
+    "description": "This is my personal portfolio website, showcasing my skills, projects, and experiences.",
+    "longDescription": "A personal portfolio website built using HTML, CSS, and JavaScript. It features a modern design, responsive layout, and showcases my skills and projects.",
+    "category": "Web Development",
+    "thumbnail": "./assets/images/portfolio.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
+    "githubUrl":"https://github.com/amoghsp132/My-Portfolio",
+    "liveUrl": "https://amoghsp132.github.io/My-Portfolio/",
+    "videoEmbed": "<iframe src=\"https://amoghsp132.github.io/My-Portfolio/\" width=\"100%\" height=\"400\" style=\"border:none;\">Your browser does not support iframes.</iframe>",
+    "features": [
+      "Modern responsive design",
+      "Showcases projects and skills",
+      "Clean and professional UI",
+      "Built with HTML, CSS, and JavaScript",
+      "Deployed on GitHub Pages"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Cloud Drive – Raspberry Pi Based Storage System",
+    "description": "A self-hosted cloud drive built using Raspberry Pi, enabling secure file upload, download, and remote access.",
+    "longDescription": "This project is a Raspberry Pi–powered personal cloud storage system that allows users to upload, manage, and download files remotely over a web interface. It focuses on low-cost cloud infrastructure, file security, and practical deployment using Linux and networking concepts.",
+    "category": "Cloud + Systems Project",
+    "thumbnail": "./assets/images/cloud-drive.png",
+    "technologies": ["Raspberry Pi", "Python", "Flask", "Linux", "Networking", "HTML", "CSS"],
+    "githubUrl": "https://github.com/amoghsp132/Raspberry-Pi-4---Simple-Cloud-Storage",
+    "liveUrl": null,
+    "videoEmbed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2erlLtkwh4k?si=eUZlrzNdcJ115Zdo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "features": [
+      "Self-hosted cloud storage",
+      "File upload and download support",
+      "Remote access over network",
+      "Built using Raspberry Pi",
+      "Lightweight web interface",
+      "Low-cost cloud alternative"
+    ]
+  },
+  {
+    "id": 7,
     "title": "Music Producer / Lyricist",
     "description": "Writing songs & makeing music is my hobby. I've been producing music for over 6 years, starting with GarageBand and now using FL Studio.",
     "longDescription": "It all started when my father bought home an iPad, I used to play around with the DAW 'Garageband'. Now over the span of 6 years I've shifted to FL Studio & make quality music. I'm available on most music platforms such as Apple Music, Spotify, etc. Feel free to listen to my music :)",
@@ -62,8 +149,9 @@
       "Sharing music on streaming platforms"
     ]
   },
+
   {
-    "id": 6,
+    "id": 8,
     "title": "ReconNinja V1.0",
     "description": "ReconNinja is an automated reconnaissance tool written in Python",
     "longDescription": "ReconNinja is an automated reconnaissance tool written in Python, is a native command-line based tool. Consists of 497 lines of code & has 10 tools prebuilt in it.",
@@ -83,27 +171,9 @@
       "Supports various reconnaissance tasks"
     ]
   },
+
   {
-    "id": 4,
-    "title": "Portfolio Website",
-    "description": "This is my personal portfolio website, showcasing my skills, projects, and experiences.",
-    "longDescription": "A personal portfolio website built using HTML, CSS, and JavaScript. It features a modern design, responsive layout, and showcases my skills and projects.",
-    "category": "Web Development",
-    "thumbnail": "./assets/images/portfolio.png",
-    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
-    "githubUrl":"https://github.com/amoghsp132/My-Portfolio",
-    "liveUrl": "https://amoghsp132.github.io/My-Portfolio/",
-    "videoEmbed": "<iframe src=\"https://amoghsp132.github.io/My-Portfolio/\" width=\"100%\" height=\"400\" style=\"border:none;\">Your browser does not support iframes.</iframe>",
-    "features": [
-      "Modern responsive design",
-      "Showcases projects and skills",
-      "Clean and professional UI",
-      "Built with HTML, CSS, and JavaScript",
-      "Deployed on GitHub Pages"
-    ]
-  },
-  {
-    "id": 7,
+    "id": 9,
     "title": "Graphic Design",
     "description": "This is a collection of my graphic design work I did to earn pocket-money from Under25 App.",
     "longDescription": "A collection of graphic design work I did to earn pocket-money from Under25 App. It includes various designs for social media, posters, and other digital content. The designs are created using Canva.",
@@ -123,8 +193,9 @@
       "Promotional Materials"
     ]
   },
+
   {
-    "id": 8,
+    "id": 10,
     "title": "UI/UX Design - Single Pages",
     "description": "This project showcases my UI/UX design skills through various single-page designs.",
     "longDescription": "A collection of single-page UI/UX designs that demonstrate my design skills and creativity. Each design is crafted to provide a unique user experience and aesthetic appeal.",
@@ -144,67 +215,44 @@
       "Focus on usability and accessibility"
     ]
   },
+
   {
-  "id": 1,
-  "title": "StockInfo Web Development<br>+ Data-Science Project",
-  "description": "A web application that fetches, analyzes, and visualizes stock market data, providing downloadable reports and real-time insights.",
-  "longDescription": "StockInfo WebDev DS Project is a dynamic Flask-based web application that allows users to retrieve historical stock data from Yahoo Finance, analyze it using pandas and Sweetviz, generate HTML and PDF reports, download CSVs, and access a RESTful API for stock information. It integrates data science techniques with web development to provide an interactive and user-friendly platform for financial data analysis.",
-  "category": "Web Development + Data Science",
-  "thumbnail": "./assets/images/stockinfo.png",
-  "technologies": ["Flask", "Python", "Pandas", "NumPy", "Matplotlib", "Sweetviz", "yfinance", "xhtml2pdf", "Flask-Caching", "Gunicorn", "Render.com","TradingView Integration", "GitHub"],
-  "githubUrl": "https://github.com/amoghsp132/StockInfo-WebDev-DS-Project/tree/master",
-  "liveUrl": "https://stockinfo-webdev-ds-project.onrender.com/",
-  "videoEmbed": "<iframe src=\"https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7371590275548311553?compact=1\" height=\"399\" width=\"504\" frameborder=\"0\" allowfullscreen=\"\" title=\"Embedded post\"></iframe>",
-  "features": [
-    "Fetches historical stock data from Yahoo Finance",
-    "Analyzes and visualizes stock trends",
-    "Generates downloadable HTML and PDF reports",
-    "Exports raw stock data in CSV format",
-    "Provides RESTful API for real-time stock info",
-    "Responsive and interactive user interface",
-    "Caching for faster repeated requests",
-    "Deployed on Render for cloud accessibility"
-  ]
-},
-{
-  "id": 9,
-  "title": "Student DBMS using C/C++",
-  "description": "A C-based project implementing core data structures for managing student records efficiently using flat text files.",
-  "longDescription": "The Student Database Management System is a console-based project built in C that manages student data such as names, roll numbers, and grades using file handling and structured data operations. It performs key CRUD operations—add, search, update, delete—without relying on any external database. The project demonstrates strong understanding of data structures, file I/O, and memory management in C programming.",
-  "category": "Data Structures (C/C++)",
-  "thumbnail": "https://iili.io/f4Tztaf.png",
-  "technologies": ["C", "File Handling", "Data Structures", "Pointers", "CLI", "Flat File Storage", "Binary Storage"],
-  "githubUrl": "https://github.com/amoghsp132/Student-Database-Management-System",
-  "liveUrl": "",
-  "videoEmbed": "",
-  "features": [
-    "Implements CRUD operations for student records",
-    "Uses flat text files for persistent storage",
-    "Efficient record management using structured data",
-    "Demonstrates C file handling and memory management",
-    "Simple CLI interface for user interaction"
-  ]
-},
-{
-  "id": 10,
-  "title": "Student Ranking System using C/C++",
-  "description": "A C-based program that processes and ranks students using sorting algorithms and structured data management.",
-  "longDescription": "The Student Ranking System is a console-based C project that reads, stores, and processes student data to generate merit-based rankings. It utilizes data structures such as arrays and structures, combined with sorting algorithms like Bubble Sort or Quick Sort, to efficiently compute and display student ranks. The project demonstrates practical application of algorithmic logic, structured programming, and performance optimization in C.",
-  "category": "Data Structures (C/C++)",
-  "thumbnail": "https://iili.io/f4Tuukv.png",
-  "technologies": ["C", "Data Structures", "Sorting Algorithms", "File Handling", "CLI"],
-  "githubUrl": "https://github.com/amoghsp132/Student-Ranking-System",
-  "liveUrl": "",
-  "videoEmbed": "",
-  "features": [
-    "Processes student records for ranking and performance analysis",
-    "Implements sorting algorithms for merit-based ranking",
-    "Uses structured data for efficient storage and retrieval",
-    "Provides simple command-line interface for operations",
-    "Demonstrates algorithmic logic and data structure proficiency"
-  ]
-}
+    "id": 11,
+    "title": "Student DBMS using C/C++",
+    "description": "A C-based project implementing core data structures for managing student records efficiently using flat text files.",
+    "longDescription": "The Student Database Management System is a console-based project built in C that manages student data such as names, roll numbers, and grades using file handling and structured data operations.",
+    "category": "Data Structures (C/C++)",
+    "thumbnail": "https://iili.io/f4Tztaf.png",
+    "technologies": ["C", "File Handling", "Data Structures", "Pointers", "CLI", "Flat File Storage", "Binary Storage"],
+    "githubUrl": "https://github.com/amoghsp132/Student-Database-Management-System",
+    "liveUrl": "",
+    "videoEmbed": "",
+    "features": [
+      "Implements CRUD operations for student records",
+      "Uses flat text files for persistent storage",
+      "Efficient record management using structured data",
+      "Demonstrates C file handling and memory management",
+      "Simple CLI interface for user interaction"
+    ]
+  },
 
-
-
+  {
+    "id": 12,
+    "title": "Student Ranking System using C/C++",
+    "description": "A C-based program that processes and ranks students using sorting algorithms and structured data management.",
+    "longDescription": "The Student Ranking System is a console-based C project that reads, stores, and processes student data to generate merit-based rankings.",
+    "category": "Data Structures (C/C++)",
+    "thumbnail": "https://iili.io/f4Tuukv.png",
+    "technologies": ["C", "Data Structures", "Sorting Algorithms", "File Handling", "CLI"],
+    "githubUrl": "https://github.com/amoghsp132/Student-Ranking-System",
+    "liveUrl": "",
+    "videoEmbed": "",
+    "features": [
+      "Processes student records for ranking and performance analysis",
+      "Implements sorting algorithms for merit-based ranking",
+      "Uses structured data for efficient storage and retrieval",
+      "Provides simple command-line interface for operations",
+      "Demonstrates algorithmic logic and data structure proficiency"
+    ]
+  }
 ]
